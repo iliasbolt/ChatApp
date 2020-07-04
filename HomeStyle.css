@@ -1,0 +1,729 @@
+body{
+	background-image: url(imgs/bg_1.jpg);
+	background-size: cover;
+}
+.head{
+	height: 70px;
+	backgr/ound: #e6f2f895;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px black;
+	display: inline-block;	
+
+
+	background:linear-gradient(#54cfe3a3, #9ed7e09c);
+	background:linear-gradient(#54cfe396, #9ed7e094);
+}
+
+.FullHome{
+	height: 550px;	
+	width: 100%;
+	backgr/ound: #e6f2f895;
+	top: 0px; 
+	left: 0px;
+	border-radius: 5px;
+	box-/shadow: 2px 2px 3px black;
+	bor/der:1px solid black;
+	float: center;
+	display: inline-block;
+}
+.LeftSide{
+	width: 18%;
+	margin-top: 2px;
+	border-radius: 4px;
+	height: 540px;
+	top: 0px ;
+	box-shadow: 2px 2px 3px black;
+	left: 0px;
+	float: left;
+	background-image: url(imgs/left_1.jpg);
+	background-size: cover; 
+	background:linear-gradient(#4ca1af66 , #9ed7e09c);
+}
+.CenterSide{
+	width: 62%;
+	margin-top: 2px;
+	border-radius: 4px;
+	height: 540px;
+	
+	top: 0px ;
+	box-shadow: 2px 2px 3px black;
+	left: 0px;
+	float: right;
+	background-image: url(imgs/left_1.jpg);
+	background-size: cover; 
+	background: #e6f2f895;
+	margin-right: 1%;
+	margin-left: 1%;
+
+	background:linear-gradient(#4ca1af66 , #9ed7e09c);
+}
+.RightSide{
+	width: 18%;
+	margin-top: 2px;
+	border-radius: 4px;
+	height: 540px;
+	top: 0px ;
+	box-shadow: 2px 2px 3px black;
+	left: 0px;
+	
+
+	float: right;
+	background-image: url(imgs/left_1.jpg);
+	background-size: cover; 
+	background: #e6f2f895;
+
+	background:linear-gradient(#4ca1af66 , #9ed7e09c);
+}
+.logo
+{
+	width: 250px;
+	height: 50px;
+	margin-left: 43%;
+	margin-top: -10px;
+	float: left;
+	
+}
+.logo img{
+	width: 55px;
+	height: 55px;
+	float: left;
+	margin-top: 14px;
+	
+}
+.logo h3{
+	margin-left: 10px;
+	font-family: cursive;
+	font-size: 24px;
+}
+.buttons{
+	width: 150px;
+	height: 50px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+.buttons button{
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	
+	margin-right: 12px;
+	border: 1px solid aqua;
+	border-radius: 10px;
+	
+	transition: 1s ease;
+	border-radius: 60%;
+
+}
+.buttons button:hover{
+	transition: 1s ease;
+	bo/rder-radius: 20px;
+
+	border: red 1px solid;
+	
+	color:aqua;
+}
+.LogOut{
+	background-image: url(imgs/Logout.png);
+	background-size: cover;
+	op/acity: 0.7;
+	margi/n-top: -10px;
+}
+.MessagePrv{
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	background-size: cover;
+}
+.MessagePrv img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	backg/round-image: url(imgs/message.png);
+	background-size: cover;
+	
+}
+.LeftSideHead{
+	width: 100%;
+	height: 40px;
+	font-size: 22px;
+	bor/der: 1px solid black;
+	text-align: center;
+	font-family: cursive;
+
+}
+.LeftSideBody{
+	width: 100%;
+	height: 500px;
+	background-color: transparent;
+	font-family: cursive;
+	display: inline-block;
+}
+.LeftSideBody img{
+	width: 80%;
+	margin-left: 10%;
+	height: 200px;
+	border-radius: 50%;
+	float: left;
+	
+	border: 1px solid black;
+	
+}
+.chooseImage{
+	width: 40px;
+	height: 20px;
+	float: right;
+	border-radius: 50%;
+	margin-top: -35px;
+	margin-right: 14%;
+	
+	
+}
+.update{
+	margin-top: 35px;
+	bor/der: 1px solid black;
+	height: fit-content;
+}
+#description{
+	margin-top: 5px;
+	width: 90%;
+	margin-left: 5%;
+	height: 60px;
+	border-radius: 10px;
+	overflow: auto;
+}
+.update input{
+	margin-left: 10%;
+	width: 80%;
+	height: 20px;
+	border: 1px solid aqua;
+	border-radius: 6px;
+	margin-top: 5px;
+}
+.update input:hover{
+	border: 1px solid aqua;
+	transition: 1s ease;
+}
+.updateButtons button{
+	margin-left: 6%;
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: transparent;
+	border: 1px solid black;
+	font-family: cursive;
+
+}
+#submitbtn:hover{
+
+	border: 1px solid aqua;
+}
+#submitbtn{
+	margin-left: 30px;
+	width: 80px;
+	height: 35px;
+	border-radius: 10px;
+	
+	background-color: transparent;
+	border: 1px solid black;
+	font-family: cursive;
+	margin-top: -3px;
+	font-family: cursive;
+	font-size: 20px;
+	
+}
+
+
+#submitbtn:enabled{
+	border: 1px solid black;
+}
+#submitbtn:disabled{
+	border: 1px solid transparent;
+}
+.updateButtons{
+	margin-left: 22%;
+	height: 30px;
+	margin-top: 5px;
+	
+}
+.updateButtons button:active{
+	border: 2px solid red;
+}
+#usernameUPDATE,#passwordUPDATE,#datenaissanceUPDATE,#ageUPDATE,#descriptionUPDATE :disabled{
+	border: 1px solid transparent;
+}
+#usernameUPDATE,#passwordUPDATE,#datenaissanceUPDATE,#ageUPDATE,#descriptionUPDATE :enabled{
+	border: 1px solid black;
+}
+#usernameUPDATE,#passwordUPDATE,#datenaissanceUPDATE,#ageUPDATE,#descriptionUPDATE{
+	height: 30px;
+	font-size: 20px;
+}
+.RightSideHeader{
+	width: 100%;
+	height: 50px;
+	padding: 2px;
+	bor/der: 1px solid black;
+	display: inline-block;
+	
+	border-radius: 10px;
+}
+.TextArea{
+	width: 70%;
+	height: 50px;
+	float: left;
+	border-radius: 10px;
+}
+.TextArea input:active{
+	border: 2px solid red;
+}
+.TextArea input{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid aqua;
+	background-color: #a9c2c7;
+	font-size: 18px;
+	font-family: cursive;
+}
+.btnSearch{
+	float: right;
+	width: 26%;
+	margin-right: 1%;
+	border-radius: 10px;
+	height: 50px;
+	
+	bord/er: 1px solid aqua;
+}
+.btnSearch button:hover{
+	border: 2px solid red;
+}
+.btnSearch button{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	background-image: url(imgs/searchT.png);
+	background-size: cover;
+	opa/city: 0.7;
+	border: 2px solid aqua;
+
+}
+.btnSearch button:active{
+	border: 2px solid red;
+}
+.AllPeople{
+	width: 99%;
+	height: fit-content;
+	overflow: auto;
+	border-radius: 10px;
+	margin-top: 8%;
+	background-color: #d1e1e454;
+	border: 1px solid #d1e1e48f;
+}
+
+.JustOneUser:hover{
+	background-color: #c9e8efc7;
+}
+
+.JustOneUser{
+	width: 99%;
+	height: 30px;
+	font-size: 21px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 8px;
+	cursor: pointer;
+	border-bottom-width: 40%;
+	font-family: cursive;
+	border-left: 1px solid #d1e1e454;
+	border-right: 1px solid #d1e1e454;
+	border-bottom: 1px solid #c9e8efc7;
+
+
+}
+.Container{
+	width : 100%;
+	height: 450px;
+	
+	width: 98%;
+	height: 450px;
+
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	border-radius: 10px;
+	background-color: #d1e1e454;
+	border: 1px solid #d1e1e48f;
+	color: linear-gradient(gray,black);
+	
+	
+
+}
+.ALLMessages{
+    overflow: auto; 
+    
+	width: 98%;
+	height: 400px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	border-radius: 10px;
+}
+.inputMSG{
+	width: 96%;
+	height: 50px;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 10px;
+	border: 1px solid #d1e1e48f;
+	display: inline-block;
+	background-color: #d1e1e454;
+}
+.loadMore{
+	width: 100%;
+	height: 15px;
+	text-align: center;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-top: 2%;
+	
+}
+#sendMessageinput{
+	margin: auto;
+	width: 75%;
+	height: 40px;
+	border: 1px solid black;
+
+	margin-left: 5%;
+	border-radius: 6px;
+	margin-top: 3px;
+	font-size: 20px;
+	font-family: cursive;
+	text-align: center;
+	float: left;
+	background-color: #d1e1e454;
+}
+.SendMessage{
+	width: 40px;
+	margin-top: 5px;
+	margin-left: 5px;
+	height: 40px;
+	border-radius: 7px;
+	background-image: url(imgs/sendmsg2.png);
+	background-size: cover;
+	opac/ity: 0.7;
+
+}
+.SendMessage:hover{
+	border: 1px solid red;
+}
+.SendMessage:active{
+	border: 1px solid red;
+}
+
+.JustOneMessage{
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 10px;
+	border-bottom: 1px solid white;
+	box-shadow: 0px 0px 2px 1px black;
+}
+.JustOneMessage_head{
+	width: 90%;
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+	color:darkgray;
+	bord/er:1px solid black;
+	display: inline-block;
+}
+.JustOneMessage_head_user{
+	float: left;
+	margin-left: 5%;
+	font-size: 15px;
+	width: fit-content;
+	height: 20px;
+	font-family: cursive;
+	backgroun/d-color: #c9e8efc7;
+	color: white;
+	border-bottom: 1px solid #c9e8efc7;
+}
+.JustOneMessage_head_date{
+	margin: auto;
+	margin-left: 5%;
+	font-size: 12px;
+	width: 40%;
+	height: 20px;
+	font-family: cursive;
+	background-/color: #cccccca6;
+	color:#696767a6;
+	border-/bottom: 1px solid #c9e8efc7;
+}
+.JustOneMessage_message{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.shadow{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #9a9fa7e0;
+	display: none;
+	position: absolute;
+}
+.contPRV{
+	width: 60%;
+	height: 460px;
+	border-radius: 17px;
+	background: #e2e9ea;
+	margin: auto;
+	margin-top: 100px;
+}
+.contPRVHeader{
+	width: 100%;
+	height: 40px;
+}
+.close:hover{
+	border: 1px solid aqua;
+	transition: 1s ease;
+}
+.close{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: right;
+
+	background-image: url(imgs/cancel.png);
+	background-size: cover;
+}
+.profileIMG{
+	width: 150px;
+	height: 150px;
+	bo/rder:1px solid red;
+	margin-left: 14%;
+	margin-top: -30px;
+}
+
+.profileIMG img{
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+.Informations{
+	width: 100%;
+	height: 235px;
+	bor/der:1px solid black;
+	font-size: 20px;
+	font-family: cursive;
+	overflow: auto;
+}
+.AllInforAndMSG{
+	width: 100%;
+	margin-top: 10px;
+	display: inline-block;
+	height: 280px;
+}
+
+fieldset {
+	width: 45%;
+	float: left;
+    margin: 8px;
+    border: 1px solid black;
+    padding: 10px;    
+    border-radius: 7px;
+    height: fit-content;
+    overflow: auto;
+}
+
+legend {
+    padding: 2px;    
+}
+.MessagesPRVZONE{
+	overflow: auto;
+	width: 47%;
+	float: right;
+	height: 395px;
+	margin-top: -115px;
+	border-radius: 10px;
+	margin-right: 1%;
+	border:1px solid black;
+}
+.MessagesPRVZONE_head{
+	width: 99%;
+	text-align: center;
+	height: 30px;
+	bor/der:1px solid black;
+	font-size: 23px;
+	border-bottom: 1px solid black;
+	font-family: cursive;
+
+}
+.MessagesPRVZONE_body{
+	height: 100%;
+	height: 300px;
+	
+	font-family: cursive;
+	bor/der: 1px solid black;
+	overflow: auto;
+}
+.MessagesPRVZONE_footer{
+	height: 45px;
+	bor/der: 1px solid red;
+	width: 98%;
+	clear: both;
+	display: inline-block;
+}
+.MessagesPRVZONE_footer_input:hover{
+	border: 2px solid aqua;
+	transition: 1s ease;
+
+}
+.MessagesPRVZONE_footer_input{
+	width: 66%;
+	height: 35px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 2px solid white;#c9e8efc7;
+	margin-left: 2%;
+	float: left;
+	background-color: transparent;
+	font-size: 20px;
+	font-family: cursive;
+}
+.MessagesPRVZONE_footer_btn{
+	width: 45px;
+	height: 45px;
+	margin-right: 1%;
+	margin-top: 1%;
+	border-radius: 5px;
+	border: 2px solid white;#c9e8efc7;
+	margin-left: 2%;
+	margin-ri/ght: 3%;
+	float: right;
+	background-image: url(imgs/sendmsg2.png);
+	background-size: cover;
+	opacity: 0.8;
+}
+.MessagesPRVZONE_footer_btn:hover{
+	border: 1px solid aqua;
+	transition: 1s ease;
+}
+.MessagesPRVZONE_footer_btn:active{
+	border: 1px solid red;
+
+}
+.Output{
+	border-bottom: 1px solid white;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	border-radius: 7px;
+	font-size: 15px;
+	background-color: #e6f2f895;
+	overflow: auto;
+}
+.DateOut{
+	border-top: 1px solid gray;
+	width: 100%;
+	border-radius: 7px;
+	text-align: center;
+	font-size: 12px;
+	font-family: cursive;
+	margin/-left: 60%;
+	background: linear-gradient(#a9c2c7d6,#e6f2f895);
+}
+.WhoSendMessages{
+	width: 30%;
+	height: 300px;
+	ove/rflow:auto;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 150px;
+	background: #e2e9ea;
+}
+.WhoSendMessages_header{
+	width: 80%;
+	height: 40px;
+	font-size: 20px;
+	font-family: cursive;
+	text-align: center;
+	border-bottom:1px solid black;
+	border-bottom-color: white;
+	display: inline-block;
+
+}
+.WhoSendMessages_body{
+	width: 90%;
+	height: 230px;
+	border-radius: 20px;
+	bord/er:1px solid white;
+	overflow: auto;
+}
+.TakeTheUser{
+	width: 80%;
+	bor/der-bottom:1px solid white;
+	border-width: 50%;
+	box-shadow: 1px 0px 0px 0px solid black;
+	height: 20px;
+	font-family: cursive;
+	font-size: 18px;
+	margin-left: 20%;
+	cursor: pointer;
+	margin-top: 5px;
+
+	transition: 1s ease;
+}
+.TakeTheUser:hover{
+	transition: 1s ease;
+	backg/round-color: white;
+	color:black;
+	font-size: 20px;
+}
+#closeTS{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: right;
+	marg/in-left: 90%;
+	background-image: url(imgs/cancel.png);
+	background-size: cover;
+}
+.msgZoneTest{
+	width: 60px;
+	height: fit-content;
+	float: left;
+	
+}
+#LoadMorePrv{
+
+	background-color: transparent;
+	border: 2px solid white;
+	font-size:17px;
+	float: left;
+	margin-top: 14px;
+	margin-left: 7px;
+	border-radius: 50%;
+	
+	width: fit-content;
+	cursor: pointer;
+}
+#LoadMorePrv:hover{
+	transition: 1s ease;
+	border:2px solid aqua;
+}
+footer{
+	text-align: center;
+	height: 8px;
+}
+#fileToUpload{
+	border: 1px solid transparent;
+	width: 74%;
+
+}

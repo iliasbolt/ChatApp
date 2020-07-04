@@ -1,0 +1,389 @@
+ input:valid
+        {
+            border: solid 2px green;
+        }
+        input:invalid
+        {
+            border: solid 2px red;
+        }
+
+
+body{
+	background-image: url(imgs/bg_1.jpg);
+	background-size: cover;
+}
+#forget{
+	cursor: pointer;
+	margin-left: 10%;
+	transition: 1s ease;
+}
+#forget:hover{
+	font-size: 17px;
+	transition: 1s ease;
+}
+.head{
+	height: 70px;
+	background: #e6f2f895;
+	top: 0px; 
+	left: 0px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px black;
+
+}
+.head img{
+	width: 55px;
+	height: 55px;
+	margin-top: 4px;
+	
+	float: left;
+}
+.iconAndTitle{
+	margin-left: 3%;
+	width: 200px;
+	clear: all;
+	float: left;
+}
+table{
+	width: fit-content;
+	height: fit-content;
+}
+.titre{
+	font-size: 24px;
+	margin-left: -10px;
+	font-family: cursive;
+}
+ul{
+
+	float: right;
+	margin-right: 20px;
+	
+}
+ul {
+	list-style: none;
+	margin-right: 20px;
+	float: right;
+	margin-top: -2px;
+	
+}
+ul li{
+	display: inline-block;
+	border: 1px solid blue;
+	padding: 10px;
+
+	margin-bottom: 10px;
+	margin-top: -5px;
+	margin-right: 20px;
+	border-radius: 3px;
+	font-size: 22px;
+	transition: 1s ease;
+	font-family: Century-Glothique;
+	cursor: pointer;
+
+}
+ul li:hover{
+	transition: 1s ease;
+	border-radius: 20px;
+	border: blue 1px solid;
+	background: #923974;
+	color:aqua;
+}
+.Main{
+	border: 3px solid #dcdacbdb;
+	width: 70%;
+	height: fit-content;
+	margin-top: 3%;
+	margin-left: 15%;
+	background: #e6f2f594;
+	display: inline-block;
+	border-radius: 10px;
+	box-shadow: 2px 2px 7px black;
+}
+.LogIn{
+	width: 40%;
+	height: 100%;
+	back/ground: #e6f2f895;
+	margin-left: 20px;
+	margin-right: 30px;
+	float: left;	
+}
+.ligne{
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(#e6f2f895,#ddd);
+	float: right;
+	margin-right: 4%;
+
+}
+.SignUp{
+	width: 40%;
+	height: 100%;
+	float: right;
+	ba/ckground: #e6f2f895;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+.text{
+	margin-top: 20px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 35px;
+	font-family: Century;
+}
+.Info_LogIn{
+	width: 90%;
+	height: 250px;
+	border-radius: 10px;
+	margin-left: 7%;
+	margin-top: 50px;
+	bo/rder: 1px solid black;
+}
+.Info_SignUp{
+	width: 90%;
+	height: 350px;
+	margin-left: 3%;
+	border-radius: 10px;
+	margin-right: 5%;
+	margin-top: 20px;
+	bor/der: 1px solid black;
+}
+footer{
+	text-align: center;
+}
+#username:active{
+	border: 2px solid aqua;
+}
+#password:active{
+	border: 2px solid aqua;
+}
+#username,#password{
+	width: 70%;
+	margin-top: 26px;
+	border-radius: 10px;
+	height: 40px;
+	border: 1px solid black;
+	margin-left: 13%;
+	text-align: center;
+	font-size: 18px;
+	background: #ddd;
+}
+
+#submitIn{
+	width: 50%;
+	margin-top: 40px;
+	border-radius: 5px;
+	border: 1px solid black;
+	height: 40px;
+	font-size: 18px;
+	margin-left: 22%;
+	background: linear-gradient(#e6f2f895,#ddd);
+	transition: 1s ease;
+}
+#submitIn:hover{
+	border-radius: 20px;
+	border: 1px solid aqua;
+	transition: 1s ease;
+	cursor: pointer;
+}
+#fullnameSIGNUP,#usernameSIGNUP,#emailSIGNUP,#passwordSIGNUP,#age{
+	width: 70%;
+	margin-top: 12px;
+	border-radius: 10px;
+	height: 40px;
+	border: 1px solid black;
+	margin-left: 16%;
+	text-align: center;
+	font-size: 18px;
+	background: #ddd;
+}
+#dateNaissance{
+	width: 70%;
+	margin-top: 18px;
+	border-radius: 10px;
+	height: 28px;
+	border: 1px solid black;
+	margin-left: 16%;
+	text-align: center;
+	font-size: 15px;
+	background: #ddd;
+	text-align: center;
+}
+#submitSIGNUP{
+
+	width: 50%;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: 1px solid black;
+	height: 40px;
+	font-size: 18px;
+	margin-left: 27%;
+	background: linear-gradient(#e6f2f895,#ddd);
+	transition: 1s ease;
+}
+#submitSIGNUP:hover{
+	border-radius: 20px;
+	border: 1px solid aqua;
+	transition: 1s ease;
+	cursor: pointer;
+}
+
+.shadow{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #9a9fa7e0;
+	display: none;
+	position: absolute;
+}
+
+.Contact{
+
+	width: 40%;
+	height: 350px;
+
+	
+	border-radius: 17px;
+	
+	
+	background: #e2e9ea;
+	margin: auto;
+	
+	margin-top: 100px;
+
+
+
+}
+.ContactHeader{
+	width: fit-content;
+	height: 30px;
+	bo/rder: 1px solid black;
+	display: inline-block;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 24px;
+
+	font-family: Century;
+
+}
+.close{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: right;
+	margin-left: 330px;
+	background-image: url(imgs/cancel.png);
+	background-size: cover;
+}
+.info{
+	float: left;
+	width: 450px;
+	height: 250px;
+	overflow: auto;
+	border: 1px solid balck;
+	margin-top: 10%;
+	margin-left: 30px;
+}
+#aboutUsH{
+	float: left;
+	width: 400px;
+	height: 250px;
+	margin: auto;
+	border: 1px solid balck;
+	margin-top: 7%;
+	margin-left: 30px;
+}
+fieldset {
+	
+    margin: 2px;
+    border: 1px solid silver;
+    padding: 5px;    
+    border-radius: 4px;
+    height: fit-content;
+    font-size: 20px;
+}
+
+legend {
+    padding: 2px;    
+}
+.Facebook,.Github,.LinkedIn{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: -15px;
+
+}
+.Facebook{
+	background-size: cover;
+	background-image: url(imgs/fb.png);
+	margin-left: 50px;
+}
+.Github{
+	background-image: url(imgs/github.png);
+	background-size: cover;
+	margin-left: 50px;
+}
+.LinkedIn{
+	background-image: url(imgs/lk.jpg);
+	background-size: cover;
+	margin-left: 50px;
+}
+
+.errorZone{
+	width: fit-content;
+	
+	height: fit-content
+	margin-left:10px;
+	margin-top:10px;
+	font-size: 18px;
+	color:red;
+}
+.errorZoneLOGIN{
+	width: fit-content;
+	
+	height: fit-content
+	margin-left:20px;
+	margin-top:40px;
+	font-size: 18px;
+	color:red;
+}
+        
+[class*="col-"] {
+ float: left;
+ padding: 15px;
+ width: 100%;
+}
+        
+  @media only screen and (min-width:500px)    
+ {
+  .col_s_1{width: 3.30%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+      
+}
+   @media only screen and (min-width: 770px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}     
+
+
